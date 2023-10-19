@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Edit Text Anywhere'
+        title: 'Edit Text Online or Offline'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -29,8 +29,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Edit Text Anywhere',
-        short_name: 'Anywhere',
+        name: 'Edit Text Online or Offline',
+        short_name: 'E.T.O.O',
         description: 'Editing text has never been better!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
