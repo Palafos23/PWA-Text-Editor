@@ -47,10 +47,25 @@ THEN I should have proper build scripts for a webpack application
 
 ## Table of contents
   
+  [Installation](#installation)
+  
+
+  [License](#license)
+  
 
   [Questions](#questions)
 
 
+## Installation
+
+  1. clone this to your local repository.
+  2. open terminal in main directory and npm to install all required dependencies.
+  3. run npm run start to run locally
+  4. open link at bottom of terminal to see it in your browser. Where you can also install 
+  it. 
+   
+  
+
 ## License
 
- The chosen license is [MIT](https://choosealicense.com/licenses/mit/#).
+  The chosen license is [MIT](https://choosealicense.com/licenses/mit/#).
